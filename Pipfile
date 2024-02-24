@@ -8,6 +8,9 @@ numpy = "*"
 jupyter = "*"
 matplotlib = "*"
 imageio = "*"
+pandas = "*"
+torch = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
