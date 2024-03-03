@@ -11,6 +11,8 @@ imageio = "*"
 pandas = "*"
 torch = "*"
 scikit-learn = "*"
+torchvision = "*"
+torchsummary = "*"
 
 [dev-packages]
 
