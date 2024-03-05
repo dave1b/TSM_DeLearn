@@ -3,15 +3,20 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+name = "cuda-pytorch"
+url = "https://download.pytorch.org/whl/cu118"
+verify_ssl = false
+
 [packages]
-numpy = "*"
 jupyter = "*"
 matplotlib = "*"
 imageio = "*"
 pandas = "*"
-torch = "*"
 scikit-learn = "*"
-torchvision = "*"
+torch = { index = "cuda-pytorch", version = "==2.2.1" }
+torchvision  = { index = "cuda-pytorch", version = "==0.17.1" }
+numpy = { index = "cuda-pytorch", version = "==1.26.4" }
 torchsummary = "*"
 
 [dev-packages]
