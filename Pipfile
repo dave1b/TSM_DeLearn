@@ -18,7 +18,7 @@ torchsummary = "*"
 torch = "*"
 torchvision  = "*"
 numpy = "*"
-
+tensorflow = "*"
 ###### For use with cuda   ##################################
 #torch = { index = "cuda-pytorch", version = "==2.2.1" }
 #torchvision  = { index = "cuda-pytorch", version = "==0.17.1" }
