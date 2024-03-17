@@ -17,13 +17,14 @@ scikit-learn = "*"
 torchsummary = "*"
 tensorflow = "*"
 
-#torchvision  = "*"
-#numpy = "*"
-#torch = "*"
-###### For use with cuda   ##################################
-torch = { index = "cuda-pytorch", version = "*" }
-torchvision  = { index = "cuda-pytorch", version = "*" }
-numpy = { index = "cuda-pytorch", version = "*" }
+### Without cuda
+torch = "*"
+torchvision = "*"
+numpy = "*"
+### With cuda
+#torch = { index = "cuda-pytorch", version = "*" }
+#torchvision  = { index = "cuda-pytorch", version = "*" }
+#numpy = { index = "cuda-pytorch", version = "*" }
 
 [dev-packages]
 
