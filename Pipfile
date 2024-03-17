@@ -15,14 +15,15 @@ imageio = "*"
 pandas = "*"
 scikit-learn = "*"
 torchsummary = "*"
-torch = "*"
-torchvision  = "*"
-numpy = "*"
 tensorflow = "*"
+
+#torchvision  = "*"
+#numpy = "*"
+#torch = "*"
 ###### For use with cuda   ##################################
-#torch = { index = "cuda-pytorch", version = "==2.2.1" }
-#torchvision  = { index = "cuda-pytorch", version = "==0.17.1" }
-#numpy = { index = "cuda-pytorch", version = "==1.26.4" }
+torch = { index = "cuda-pytorch", version = "*" }
+torchvision  = { index = "cuda-pytorch", version = "*" }
+numpy = { index = "cuda-pytorch", version = "*" }
 
 [dev-packages]
 
