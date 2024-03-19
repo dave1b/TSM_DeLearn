@@ -16,11 +16,13 @@ pandas = "*"
 scikit-learn = "*"
 torchsummary = "*"
 tensorflow = "*"
+pydot = "*"
 
 ### Without cuda
 torch = "*"
 torchvision = "*"
 numpy = "*"
+
 ### With cuda
 #torch = { index = "cuda-pytorch", version = "*" }
 #torchvision  = { index = "cuda-pytorch", version = "*" }
