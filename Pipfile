@@ -17,12 +17,11 @@ scikit-learn = "*"
 torchsummary = "*"
 tensorflow = "*"
 pydot = "*"
-
+seaborn = "*"
 ### Without cuda
 torch = "*"
 torchvision = "*"
 numpy = "*"
-
 ### With cuda
 #torch = { index = "cuda-pytorch", version = "*" }
 #torchvision  = { index = "cuda-pytorch", version = "*" }
