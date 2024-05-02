@@ -18,6 +18,8 @@ torchsummary = "*"
 tensorflow = "*"
 pydot = "*"
 seaborn = "*"
+tqdm = "*"
+torchinfo = "*"
 ### Without cuda
 torch = "*"
 torchvision = "*"
