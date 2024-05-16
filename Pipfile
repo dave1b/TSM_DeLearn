@@ -28,6 +28,7 @@ numpy = "*"
 #torch = { index = "cuda-pytorch", version = "*" }
 #torchvision  = { index = "cuda-pytorch", version = "*" }
 #numpy = { index = "cuda-pytorch", version = "*" }
+tensorflow-datasets = "*"
 
 [dev-packages]
 
